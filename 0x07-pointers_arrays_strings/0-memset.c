@@ -2,6 +2,9 @@
 
 /**
  * _memset() - more pointers
+ * @s: pointer to char params
+ * @b: data to change
+ * @n: sfjk
  * Return: s
  */
 
