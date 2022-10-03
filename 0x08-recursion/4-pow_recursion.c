@@ -1,1 +1,19 @@
-
+#include  "main.h"
+/**
+ * _pow_recursion - print value of x raised to y
+ * @x: int arg
+ * @y: int arg
+ * Return: int
+ */
+int _pow_recursion(int x, int y)
+{
+	if (y < 0)
+	{
+		return (-1);
+	}
+	if (y == 0)
+	{
+		return (1);
+	}
+	return (x**y);
+}
