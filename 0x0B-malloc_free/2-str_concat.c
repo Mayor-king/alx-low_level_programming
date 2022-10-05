@@ -7,7 +7,7 @@
  * @s2: char pointer
  * Return: points to newly allocated string
  */
-char *str_concat(char *s1, char *s2);
+char *str_concat(char *s1, char *s2)
 {
 	int ch1, ch2, a, b;
 	char *strNew;
