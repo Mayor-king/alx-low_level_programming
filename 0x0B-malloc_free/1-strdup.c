@@ -6,7 +6,7 @@
  * @str: char param
  * Return: pointer of string
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *strDup;
 	unsigned int a, b;
