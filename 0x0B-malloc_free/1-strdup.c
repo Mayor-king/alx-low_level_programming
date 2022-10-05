@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * str_concat - duplicate a string
+ * _strdup - duplicate a string
  * @str: char param
  * Return: pointer of string
  */
@@ -22,7 +22,7 @@ char *_strdup(char *str)
 	{
 		a++;
 	}
-	strDup = malloc(sizeof(str) * (a + 1));
+	strDup = malloc(sizeof(char) * (a + 1));
 
 	if (strDup == NULL)
 	{
