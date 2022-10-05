@@ -14,24 +14,24 @@ char *_strdup(char *str)
 	a = 0;
 	b = 0;
 
-	if (str = NULL)
+	if (str == NULL)
 	{
 		return (NULL);
 	}
 	while (a != '\0')
 	{
-		a++
+		a++;
 	}
 	strDup = malloc(sizeof(str) * (a + 1));
 
-	if (strDup = NULL)
+	if (strDup == NULL)
 	{
 		return (NULL);
 	}
 	while (b < a)
 	{
 		strDup[b] = str[b];
-		b++
+		b++;
 	}
 	strDup[b] = '\0';
 
