@@ -27,7 +27,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		ch1++;
 	}
-	ch1++;
 	while (s1[ch2] != '\0')
 	{
 		ch2++;
@@ -36,11 +35,12 @@ char *str_concat(char *s1, char *s2)
 	strNew = malloc(sizeof(char) * (ch1 + ch2));
 	if (strNew == NULL)
 	{
+		free(strNew)
 		return (NULL);
 	}
 	for (a = 0; a < ch1; a++)
 	{
-		strNew[a] = s1[a];
+		strNeiw[a] = s1[a];
 	}
 	for (b = 0; b < ch2; b++)
 	{
