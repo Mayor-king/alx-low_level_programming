@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return: always 0 
+ * Return: always 0
  */
 int main(void)
 {
@@ -12,8 +12,8 @@ int main(void)
 	while (c <= 'a')
 	{
 		putchar(c);
-		c--;
 	}
+	c--;
 	putchar('\n');
 	return (0);
 }
