@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  *  main - alphabet in lowercase
  *
@@ -15,8 +16,8 @@ int main(void)
 		if (c != 'q' && c != 'e')
 		{
 			putchar(c);
-			c++;
 		}
+		c++;
 	}
 	putchar('\n');
 	return (0);
