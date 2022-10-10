@@ -25,8 +25,8 @@ int main(void)
 				}
 			}
 		}
+		break;
 	}
-	break;
 	putchar('\0');
 
 	return (0);
