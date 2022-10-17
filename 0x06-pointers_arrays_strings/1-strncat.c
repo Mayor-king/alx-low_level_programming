@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * _strncat - concantenate two string
  * @dest: string to append to
  * @src: string that get appended
  * @n: to number in string that get appended
