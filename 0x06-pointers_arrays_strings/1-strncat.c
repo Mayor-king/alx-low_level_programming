@@ -16,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	while (cat < n)
 	{
 		*(dest + con) = *(src + cat);
-		if (*(src + cat) = '\0')
+		if (*(src + cat) == '\0')
 			break;
 		con++;
 		cat++;
