@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * cap_string - capitalizes all string
- * @s: string
- * Return: nothing
+ * @str: string
+ * Return: str
  */
 char *cap_string(char *str)
 {
