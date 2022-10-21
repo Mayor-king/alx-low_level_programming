@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memset() - memory block
+ * _memset - memory block
  * @s: pointer to char params
  * @b: data to change
  * @n: number of byte
