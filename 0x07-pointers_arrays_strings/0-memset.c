@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _memset() - more pointers
+ * _memset() - memory block
  * @s: pointer to char params
  * @b: data to change
- * @n: sfjk
- * Return: s
+ * @n: number of byte
+ * Return: number of bytes to be filled to s
  */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -15,7 +15,7 @@ char *_memset(char *s, char b, unsigned int n)
 	i = 0;
 	while (i < n)
 	{
-		s[a] = b;
+		s[i] = b;
 		i++;
 	}
 
